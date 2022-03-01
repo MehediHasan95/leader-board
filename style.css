@@ -4,6 +4,56 @@
 body {
   font-family: "Poppins", sans-serif;
   background-color: #f3f1ff;
+  margin: 0 auto;
+}
+
+nav {
+  background-color: #562eff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 215px;
+  height: 94px;
+}
+.logo-area {
+  display: flex;
+  align-items: center;
+}
+
+.website-name p {
+  color: whitesmoke;
+  width: 54px;
+  height: 36px;
+  margin-left: 15.58px;
+}
+
+.logo-area,
+.logo img {
+  width: 40.42px;
+  height: 51px;
+}
+
+.link-area,
+.link-list ul li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 36px;
+}
+
+.link-list ul li a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.profile img {
+  width: 51px;
+  height: 51px;
+  margin-left: 36px;
+}
+
+.link-area {
+  display: flex;
+  align-items: center;
 }
 
 main {
