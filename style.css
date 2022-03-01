@@ -1,0 +1,144 @@
+/* Font Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f3f1ff;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  background-color: #ffffff;
+  width: 870px;
+  padding: 20px;
+  border-radius: 13px;
+  margin-bottom: 10px;
+}
+
+.title {
+  color: #562eff;
+  font-size: 24px;
+}
+
+.players {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.player {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 15px 0px;
+}
+
+.player img {
+  width: 56px;
+  height: 56px;
+  margin-right: 10px;
+}
+
+.blogs {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 8px;
+}
+
+.blog {
+  display: flex;
+
+  align-items: center;
+  padding: 10px;
+}
+
+.blog .thumbnail img {
+  width: 177px;
+  height: 117px;
+  margin-right: 10px;
+}
+
+.blog-details a {
+  text-decoration: none;
+  color: #562eff;
+}
+
+.blog-details p {
+  color: gray;
+}
+
+.courses {
+  display: flex;
+}
+
+.course {
+  padding: 10px;
+  border-radius: 11px;
+  margin: 6px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.course .course-banner img {
+  width: 100%;
+}
+
+.course-details a {
+  text-decoration: none;
+  color: tomato;
+}
+
+.course-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.course-info p {
+  color: gray;
+}
+
+.rating {
+  color: gold;
+}
+
+.off-rating {
+  color: #aeaeae;
+}
+
+.duration p {
+  border-radius: 13px;
+  padding: 0px 5px;
+  color: #ff4a60;
+  background-color: #ffe4e8;
+}
+
+footer {
+  color: gray;
+}
+
+@media only screen and (max-width: 688px) {
+  .container {
+    width: 100%;
+  }
+  .players,
+  .blogs {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .courses {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 688px) and (max-width: 992px) {
+  .container {
+    width: 100%;
+  }
+  .players {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
